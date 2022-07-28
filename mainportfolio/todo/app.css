@@ -1,0 +1,152 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../images/MrT.webp");
+    background-repeat: repeat;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+}
+
+h3 {
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+.submit-btn {
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: white;
+    background: white;
+    text-transform: uppercase;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.grocery-list {
+    text-align: center;
+    color: bisque;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.wipe {
+    text-align: center;
+    padding: 1rem;
+}
+
+.clear-btn {
+    padding: 1rem;
+}
+
+
+
+.title {
+    text-align: center;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+.placeholder {
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    background: white;
+    border: 2px solid white;
+
+}
+
+.grocery-form {
+    text-align: center;
+    padding: 0.5rem;
+    max-height: 100vh;
+
+}
+
+#grocery {
+    padding: 1.5rem;
+    border: .1rem solid white;
+    box-shadow: cornsilk;
+    box-shadow: 15px;
+    border-radius: 8px;
+}
+
+.alert {
+    height: 4rem;
+    padding: 2rem;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-weight: bolder;
+    transition: 0.9s;
+    border-radius: 8px;
+
+}
+
+.btn.hover {
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    cursor: pointer;
+}
+
+.delete-btn {
+    background: cornsilk;
+    padding: 1.25rem;
+    border-radius: 8px;
+    margin-left: 1rem;
+}
+
+.edit-btn {
+    background: cornsilk;
+    padding: 1.25rem;
+    border-radius: 8px;
+}
+
+.delete-btn i {
+    color: dodgerblue;
+}
+
+.edit-btn i {
+    color: dodgerblue;
+}
+
+.grocery-container {
+    margin-top: 2rem;
+    visibility: hidden;
+}
+
+.show-container {
+    visibility: visible;
+
+}
+
+.alert-danger {
+    color: black;
+    text-transform: uppercase;
+    background: white;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+.alert-success {
+    color: black;
+    background: white;
+    text-transform: uppercase;
+    padding: 1rem;
+
+}
+
+.grocery-form {
+    background: rgb(248, 248, 71);
+    border-radius: 15px;
+}
